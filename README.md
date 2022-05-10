@@ -1,71 +1,13 @@
-# Decoupled MERN Stack with JWT Auth Template - Back End
+# International Aid Hackathon: Desktop Entrepreneur Sales/Inventory Dashboard - Back End
+This is the front end of a decoupled MERN Stack app with JWT Authentication. Please find the front end [here](https://github.com/international-aid-hackathon/team-3-frontend).
 
-This is the back end of a decoupled MERN Stack app that includes JWT Authentication.
+**To run this application locally on your computer, complete the following steps:**
+To run the back end server, you will need to have Node.js installed on your machine. You can install Node at one of these websites: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm https://nodejs.org/en/download/. If you have Homebrew installed, just run brew install node from your console. 
+Once you have Node installed, navigate into your back end directory, and install the project dependencies by entering `npm i` into your console.
 
-When combined with the front end found [here](https://github.com/SEI-Remote/decoupled-mern-jwt-auth-template-front-end), you'll have all you need to build a full stack MERN app!
 
-Use this to go build things! 🚀
+Now, start the back end by entering into your console `npm start`. The app will run its back end in your web browser at http://localhost:3001/.
 
-## To Use This Template
+Follow the same steps for the front end `(https://github.com/international-aid-hackathon/team-3-frontend)`. Use console command `npm start` to start your front end. The React app will open a live version of the app in your web browser at http://localhost:3000/.
 
-**Replace `<name-of-your-app-here>` in the commands below with the name of your app!**
 
-```bash
-git clone https://github.com/SEI-Remote/decoupled-mern-jwt-auth-template-back-end <name-of-your-app-here>-back-end
-cd <name-of-your-app-here>-back-end
-```
-
-Once you are in the project directory:
-
-```bash
-rm -rf .git
-```
-
-Here's what your command line output should like after this step (note that the indicator that we are in a git repository is gone!)
-
-<img src="https://i.imgur.com/L47kNOZ.png" alt="The command line before and after running the rm -rf .git command. Before git:(main) is visible indiating that the directory contains a git repository, after the command it is not.">
-
-Re-initialize a git repository:
-
-```bash
-git init
-```
-
-Use the GitHub CLI to create a new project repository on GitHub:
-
-```bash
-gh repo create <name-of-your-app-here>-back-end
-```
-
-Run npm i to fetch the template's dependencies:
-
-```bash
-npm i
-```
-
-touch a .env file:
-
-```bash
-touch .env
-```
-
-Fill it with the following:
-
-```
-DATABASE_URL=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-SECRET=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-```
-
-Replace the `DATABASE_URL` and `SECRET` with values that you provide.
-
-> 🚨 Place secrets in this `.env` file. The contents of this file WILL NOT be exposed to site visitors.
-
-Delete this README.md, then make an initial commit:
-
-```bash
-git add .
-git commit -m "initial commit"
-git push -u origin main
-```
-
-You're done!
